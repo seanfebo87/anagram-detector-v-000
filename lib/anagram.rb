@@ -6,13 +6,5 @@ class Anagram
   end 
 
 def match(array)
-  array.each do |w|
-    if w.length == @word.length
-      w 
-    else
-      []
-    end
-  end
-end
-binding.pry
+  
 end
