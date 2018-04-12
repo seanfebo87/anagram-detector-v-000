@@ -10,5 +10,3 @@ def match(array)
   array.each {|w| w.split("").sort == word_split}
   end
 end
-  
-end
